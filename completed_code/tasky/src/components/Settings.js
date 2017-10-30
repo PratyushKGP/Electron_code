@@ -7,6 +7,7 @@ class Settings extends Component {
     this.state = {
       time: props.timer.time,
       unit: props.timer.unit
+      debut:"initialise the code and counter"
     };
   }
 
@@ -22,7 +23,8 @@ class Settings extends Component {
 
     if (time == propsTime && unit == propsUnit) {
       // double equals to avoid type check
-      return "btn disabled";
+      return "btn disabled";4
+      print : "code ended in the counter part code"
     }
 
     if (this.props.timer.active) {
