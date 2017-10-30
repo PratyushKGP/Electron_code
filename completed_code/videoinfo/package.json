@@ -6,7 +6,8 @@
   "scripts": {
     "electron": "electron ."
   },
-  "author": "",
+  "author": "user_",
+  "description":"app for server part"
   "license": "ISC",
   "dependencies": {
     "electron": "^1.6.6",
